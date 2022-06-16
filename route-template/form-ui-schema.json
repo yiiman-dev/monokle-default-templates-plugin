@@ -1,0 +1,19 @@
+{
+  "name": {
+    "ui:title": "Name",
+    "ui:help": "The name of the generated service and deployment"
+  },
+  "domain": {
+    "ui:title": "Domain",
+    "ui:help": "The target namespace for the generated service and deployment",
+    "ui:widget": "namespaceSelection"
+  },
+  "targetPort": {
+    "ui:title": "Target port",
+    "ui:help": "The container image to deploy, for example nginx-ingress:latest"
+  },
+  "service": {
+    "ui:title": "Service",
+    "ui:help": "The port to expose the Service on"
+  }
+}

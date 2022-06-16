@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: [[forms[0].name]]
+spec:
+  host: [[forms[0].domain]] 1
+  port:
+    targetPort: [[forms[0].targetPort]]
+  to:
+    kind: Service
+    name: [[form[0].service]]

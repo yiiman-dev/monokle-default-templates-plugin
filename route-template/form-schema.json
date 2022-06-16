@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": [
+    "name",
+    "domain",
+    "targetPort",
+    "service"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "targetPort": {
+      "type": "number",
+      "default": 80
+    },
+    "service": {
+      "type": "string"
+    }
+  }
+}
