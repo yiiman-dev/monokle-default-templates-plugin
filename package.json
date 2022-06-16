@@ -53,6 +53,10 @@
       {
         "type": "template",
         "path": "statefulset-template"
+      },
+      {
+        "type": "template",
+        "path": "route-template"
       }
     ]
   }
